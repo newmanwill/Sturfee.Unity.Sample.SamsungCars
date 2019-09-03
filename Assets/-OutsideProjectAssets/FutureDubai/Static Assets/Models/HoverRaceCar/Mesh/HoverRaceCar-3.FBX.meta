@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 12e6f135688f9a548a0bf88159b65eec
+timeCreated: 1523892841
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: headlight-passenger
+    100002: //RootNode
+    100004: Plane001
+    100006: taillight-passenger
+    100008: BottomEffect
+    100010: HeadLightGlow
+    100012: HeadlightsL
+    100014: HeadlightsR
+    100016: Plane002
+    100018: Taillight
+    100020: TailLightGlow
+    400000: headlight-passenger
+    400002: //RootNode
+    400004: Plane001
+    400006: taillight-passenger
+    400008: BottomEffect
+    400010: HeadLightGlow
+    400012: HeadlightsL
+    400014: HeadlightsR
+    400016: Plane002
+    400018: Taillight
+    400020: TailLightGlow
+    2100000: 'Material #208'
+    2300000: headlight-passenger
+    2300002: Plane001
+    2300004: taillight-passenger
+    2300006: HeadLightGlow
+    2300008: HeadlightsL
+    2300010: HeadlightsR
+    2300012: Plane002
+    2300014: Taillight
+    2300016: TailLightGlow
+    3300000: headlight-passenger
+    3300002: Plane001
+    3300004: taillight-passenger
+    3300006: HeadLightGlow
+    3300008: HeadlightsL
+    3300010: HeadlightsR
+    3300012: Plane002
+    3300014: Taillight
+    3300016: TailLightGlow
+    4300000: Plane001
+    4300002: headlight-passenger
+    4300004: taillight-passenger
+    4300006: TailLightGlow
+    4300008: HeadLightGlow
+    4300010: Plane002
+    4300012: Taillight
+    4300014: HeadlightsR
+    4300016: HeadlightsL
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: a480701efa42b3a46815bd4f3d945004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 2f9a87ad78e81a74380b98858e42ab3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #208'
+    second: {fileID: 2100000, guid: 5f5b90e671d3d554996d22ef00eacf31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: dca826ac782f5664f9f2461fe1eacc16, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

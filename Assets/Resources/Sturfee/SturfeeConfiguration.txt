@@ -1,0 +1,1 @@
+{"AccessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1YWExNGQ4MmJjYjU2YjAwMDEzNTBlNTEiLCJzY29wZSI6InNka19sZXZlbDozIiwianRpIjoiNWFhMTRkOGRiY2I1NmIwMDAxYTE1ZGVjIiwiaWF0IjoxNTIwNTIwNTg5LCJpc3MiOiJzdHVyZmVlIn0.zxNrOqhMkLmMu1K5MUH8eopgzfHF5DfOUAD66_kObjg","MemoryCacheLimit":9,"FileCacheLimit":25,"SpatialRefGps":""}
