@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Sturfee.Unity.XR.Core.Events;
 using UnityEngine;
 
-public class SetupManager : MonoBehaviour {
+public class SetupManagerSJM : MonoBehaviour {
 
     public GameObject Car1;
     public GameObject Car2;

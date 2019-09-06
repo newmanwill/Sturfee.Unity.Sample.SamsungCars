@@ -6,6 +6,7 @@ TagManager:
   tags:
   - XRCamera
   - XRLight
+  - HoverCar
   layers:
   - Default
   - TransparentFX
