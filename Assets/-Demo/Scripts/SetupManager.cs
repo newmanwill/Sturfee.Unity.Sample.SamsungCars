@@ -20,8 +20,6 @@ public class SetupManager : MonoBehaviour {
 
     void Start () {
         SturfeeEventManager.Instance.OnSessionReady += OnSessionReady;         SturfeeEventManager.Instance.OnLocalizationSuccessful += OnLocalizationSuccessful;
-        Hashtable test = new Hashtable();
-        print("Car 1 Instance ID: " + Car1.GetInstanceID());
     }
 
     #region EventFunctions

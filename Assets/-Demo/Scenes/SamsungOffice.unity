@@ -250,7 +250,7 @@ Prefab:
     - target: {fileID: 114342308698460686, guid: 6bd8b7d75d909452f80ff91003b6ca94,
         type: 2}
       propertyPath: TargetSpeed
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
@@ -607,6 +607,11 @@ Prefab:
       propertyPath: m_Name
       value: LandingCar
       objectReference: {fileID: 0}
+    - target: {fileID: 23035383006016502, guid: a30d1c2a85cf74b28b3fc7b097af43cd,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e91ece64d3c864f9a9914d3e2836ce98, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
   m_IsPrefabAsset: 0
@@ -813,8 +818,8 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -73.19772, y: 3.7758486, z: 93.82559}
-      - {x: -49.005394, y: 3.295623, z: 109.05012}
+      - {x: -51.580093, y: 3.7761474, z: 102.174805}
+      - {x: -27.387764, y: 3.2959218, z: 117.39933}
       - {x: -14.591988, y: 2.0621889, z: 123.90082}
       - {x: -5.5302315, y: 2.4077163, z: 122.61388}
       - {x: 7.2202835, y: 2.893897, z: 120.80306}
@@ -941,7 +946,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e91ece64d3c864f9a9914d3e2836ce98, type: 2}
+      objectReference: {fileID: 2100000, guid: 32e8f72528e48a64b89ae2bb1df6920c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
   m_IsPrefabAsset: 0
@@ -1047,9 +1052,9 @@ MonoBehaviour:
       points:
       - {x: -58.118225, y: 0, z: 145.64241}
       - {x: -43.441673, y: 0.47785607, z: 143.44493}
-      - {x: -34.604885, y: 0.16922379, z: 125.417435}
+      - {x: -35.681477, y: 2.1206484, z: 131.40237}
       - {x: -33.21205, y: 0.16922379, z: 121.639435}
-      - {x: -31.02924, y: 0.16922379, z: 115.718636}
+      - {x: -30.18105, y: -2.2259789, z: 109.65627}
       - {x: -39.655533, y: -2.1721306, z: 80.12861}
       - {x: -39.74003, y: -1.4605904, z: 61.198696}
       - {x: -39.831795, y: -0.6878355, z: 40.64022}
