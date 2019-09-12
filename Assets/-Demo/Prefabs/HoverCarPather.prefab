@@ -1074,7 +1074,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1026436627815008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.198986, y: -979.7, z: 7}
+  m_LocalPosition: {x: 0.49, y: -979.7, z: 7}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4040500444038692}
@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 0}
   endOfPathInstruction: 2
-  speed: 15
+  speed: 25
 --- !u!114 &114358804638318920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1849,6 +1849,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _trailRenderer: {fileID: 96097471828767222}
+  JetFlames:
+  - {fileID: 1530342259817262}
+  - {fileID: 1020035628444348}
+  - {fileID: 1915103574798828}
+  - {fileID: 1760400029099608}
+  - {fileID: 1962319467466482}
+  - {fileID: 1710004873173862}
 --- !u!114 &114551904524631988
 MonoBehaviour:
   m_ObjectHideFlags: 1

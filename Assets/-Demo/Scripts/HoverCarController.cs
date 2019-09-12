@@ -10,6 +10,8 @@ public class HoverCarController : MonoBehaviour {
 
     [SerializeField]
     private TrailRenderer _trailRenderer;
+    [SerializeField]
+    private GameObject[] JetFlames;
 
     private PathFollower _pathFollower;
 
@@ -26,6 +28,14 @@ public class HoverCarController : MonoBehaviour {
         StartCoroutine(SpeedAdjustment(targetSpeed, adjustmentTime));
     }
 
+    private void TurnOffJetFlames()
+    {
+        foreach(GameObject jetFlame in JetFlames)
+        {
+            jetFlame.SetActive(false);
+        }
+    }
+
     private IEnumerator SpeedAdjustment(float targetSpeed, float adjustmentTime)
     {
         float startSpeed = _pathFollower.speed;
@@ -35,7 +45,6 @@ public class HoverCarController : MonoBehaviour {
 
         print("Speed Difference: " + speedDiff);
 
-
         while(Time.time < endTime)
         {
             _pathFollower.speed = targetSpeed + (speedDiff * ( (/*adjustmentTime -*/ (endTime - Time.time)) / adjustmentTime) );
@@ -44,6 +53,13 @@ public class HoverCarController : MonoBehaviour {
         }
 
         _pathFollower.speed = targetSpeed;
+
+        // If the float is supposed to be 0, then turn off the jet flames
+        if (_pathFollower.speed < 0.001f)
+        {
+            TurnOffJetFlames();
+        }
+
         print("Completed speed adjustment");
     }
 

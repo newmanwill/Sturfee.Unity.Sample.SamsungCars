@@ -801,6 +801,7 @@ Transform:
   m_Children:
   - {fileID: 307925550}
   - {fileID: 1541879701}
+  - {fileID: 2094542868}
   m_Father: {fileID: 1603969590}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -829,15 +830,15 @@ MonoBehaviour:
       - {x: 2.3986673, y: 1.8245629, z: 47.28865}
       - {x: -2.9815865, y: 0.49428368, z: 28.742916}
       - {x: -4.4844966, y: 0.12268615, z: 23.56239}
-      - {x: -16.294388, y: -0.9314434, z: -3.0269566}
-      - {x: -14.804977, y: -1.7032509, z: -13.741507}
-      - {x: -13.176704, y: -2.5470161, z: -25.455004}
-      - {x: -6.079032, y: -2.9252722, z: -28.400848}
-      - {x: 7.7099533, y: -3.7274818, z: -32.632908}
-      - {x: 19.42305, y: -4.4089212, z: -36.227844}
-      - {x: 26.950249, y: -5.211589, z: -37.117886}
-      - {x: 34.0767, y: -5.7479935, z: -36.112865}
-      - {x: 42.89441, y: -6.411699, z: -34.86933}
+      - {x: -16.321205, y: -0.9314973, z: -3.0356092}
+      - {x: -14.831795, y: -1.7033048, z: -13.750159}
+      - {x: -13.203522, y: -2.54707, z: -25.463657}
+      - {x: -6.088501, y: -2.9083474, z: -28.417465}
+      - {x: 7.70595, y: -3.711608, z: -32.631474}
+      - {x: 19.424686, y: -4.393998, z: -36.21138}
+      - {x: 26.928299, y: -5.2116256, z: -37.1072}
+      - {x: 34.05475, y: -5.74803, z: -36.10218}
+      - {x: 42.87246, y: -6.4117355, z: -34.858646}
       - {x: 46.61233, y: -7.152007, z: -22.627031}
       - {x: 37.62917, y: -8.244286, z: -15.991124}
       - {x: 30.41837, y: -9.121059, z: -10.664469}
@@ -857,15 +858,15 @@ MonoBehaviour:
       - 0
       - 0
       - 0
-      - 0
-      - 2.6672974
-      - 22.036476
-      - 28.294838
+      - 2.4415665
+      - 9.093132
+      - 24.273926
+      - 25.306534
       globalNormalsAngle: 90
       flipNormals: 0
     vertexPathUpToDate: 1
     vertexPathMaxAngleError: 0.3
-    vertexPathMinVertexSpacing: 0.01
+    vertexPathMinVertexSpacing: 0
     showTransformTool: 1
     showPathBounds: 0
     showPerSegmentBounds: 0
@@ -874,11 +875,11 @@ MonoBehaviour:
     bezierHandleScale: 1
     globalDisplaySettingsFoldout: 1
     keepConstantHandleSize: 0
-    showNormalsInVertexMode: 0
+    showNormalsInVertexMode: 1
     showBezierPathInVertexMode: 0
     showDisplayOptions: 1
     showPathOptions: 1
-    showVertexPathDisplayOptions: 0
+    showVertexPathDisplayOptions: 1
     showVertexPathOptions: 1
     showNormals: 1
     showNormalsHelpInfo: 0
@@ -1101,7 +1102,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 90
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -1864,3 +1865,64 @@ Transform:
   m_Father: {fileID: 585007175}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2094542867
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1236735719}
+    m_Modifications:
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -10.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -9.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744520969384728, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_Name
+      value: StopST
+      objectReference: {fileID: 0}
+    - target: {fileID: 114342308698460686, guid: 6bd8b7d75d909452f80ff91003b6ca94,
+        type: 2}
+      propertyPath: AdjustmentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114342308698460686, guid: 6bd8b7d75d909452f80ff91003b6ca94,
+        type: 2}
+      propertyPath: TargetSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &2094542868 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94,
+    type: 2}
+  m_PrefabInternal: {fileID: 2094542867}

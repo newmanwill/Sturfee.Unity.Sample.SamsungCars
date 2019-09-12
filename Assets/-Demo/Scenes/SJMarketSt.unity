@@ -113,6 +113,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &143508007
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 752233859}
+    m_Modifications:
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 13.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744520969384728, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_Name
+      value: StopST
+      objectReference: {fileID: 0}
+    - target: {fileID: 114342308698460686, guid: 6bd8b7d75d909452f80ff91003b6ca94,
+        type: 2}
+      propertyPath: TargetSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114342308698460686, guid: 6bd8b7d75d909452f80ff91003b6ca94,
+        type: 2}
+      propertyPath: AdjustmentTime
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &143508008 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4027468389577332, guid: 6bd8b7d75d909452f80ff91003b6ca94,
+    type: 2}
+  m_PrefabInternal: {fileID: 143508007}
 --- !u!1 &203109841
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,19 +260,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1026436627815008, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
-      propertyPath: m_Name
-      value: LandingCar
-      objectReference: {fileID: 0}
     - target: {fileID: 114328251488419276, guid: a30d1c2a85cf74b28b3fc7b097af43cd,
         type: 2}
       propertyPath: pathCreator
       value: 
       objectReference: {fileID: 752233860}
-    - target: {fileID: 114328251488419276, guid: a30d1c2a85cf74b28b3fc7b097af43cd,
-        type: 2}
-      propertyPath: speed
-      value: 25
+    - target: {fileID: 1026436627815008, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
+      propertyPath: m_Name
+      value: LandingCar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
@@ -404,6 +460,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 813035107}
+  - {fileID: 143508008}
   m_Father: {fileID: 203109842}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -748,6 +805,10 @@ Prefab:
         type: 2}
       propertyPath: AdjustmentTime
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744520969384728, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
+      propertyPath: m_Name
+      value: SlowDownST
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bd8b7d75d909452f80ff91003b6ca94, type: 2}
