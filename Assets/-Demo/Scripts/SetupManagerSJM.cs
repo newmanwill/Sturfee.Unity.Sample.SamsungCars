@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Sturfee.Unity.XR.Core.Events;
@@ -23,6 +23,12 @@ public class SetupManagerSJM : MonoBehaviour {
 
     void Start () {
         SturfeeEventManager.Instance.OnSessionReady += OnSessionReady;         SturfeeEventManager.Instance.OnLocalizationSuccessful += OnLocalizationSuccessful;
+    }
+
+    private void OnDestroy()
+    {
+        SturfeeEventManager.Instance.OnSessionReady -= OnSessionReady;
+        SturfeeEventManager.Instance.OnLocalizationSuccessful -= OnLocalizationSuccessful;
     }
 
     #region EventFunctions

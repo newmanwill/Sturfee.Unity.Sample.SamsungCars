@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/-Demo/Scenes/SamsungOffice-Old.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/-Demo/Scenes/SJMarketSt.unity
     guid: 6c1329d8c8aa74b84ab3e2b560e58b72
+  - enabled: 1
+    path: Assets/Sturfee/Examples/Sample/Sample.unity
+    guid: 20cd2ff6fc5224d558649971d754aa12
   m_configObjects: {}
