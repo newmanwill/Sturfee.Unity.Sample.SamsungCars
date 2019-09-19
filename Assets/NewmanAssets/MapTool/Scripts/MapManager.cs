@@ -69,6 +69,7 @@ public class MapManager : MonoBehaviour
         OrientationSetup();
 
         MapSettings.Mode = MapMode.None;
+        MapTouchPanel.SetActive(false);
         MiniMap.SetActive(false);
         ToMiniMapButton.SetActive(false);
         CenterFullMapOnUserButton.SetActive(false);
