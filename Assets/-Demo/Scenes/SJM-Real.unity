@@ -518,7 +518,12 @@ Prefab:
     - target: {fileID: 114220132879868824, guid: 86198402e492e4012a9d2e4d25ac8e25,
         type: 2}
       propertyPath: BaseMapCamBound
-      value: 55
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114220132879868824, guid: 86198402e492e4012a9d2e4d25ac8e25,
+        type: 2}
+      propertyPath: MapMoveSensitivity
+      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86198402e492e4012a9d2e4d25ac8e25, type: 2}
