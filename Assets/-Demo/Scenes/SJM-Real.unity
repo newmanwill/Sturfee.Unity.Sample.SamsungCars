@@ -400,6 +400,14 @@ Prefab:
       propertyPath: m_Name
       value: LandingCar
       objectReference: {fileID: 0}
+    - target: {fileID: 1649375532696916, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379832517241476, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a30d1c2a85cf74b28b3fc7b097af43cd, type: 2}
   m_IsPrefabAsset: 0
@@ -663,6 +671,11 @@ Prefab:
     - target: {fileID: 4152446403341340, guid: fbe25d4b1044b410e93d8920a812bdd8, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108033760258497848, guid: fbe25d4b1044b410e93d8920a812bdd8,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 3073
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbe25d4b1044b410e93d8920a812bdd8, type: 2}
